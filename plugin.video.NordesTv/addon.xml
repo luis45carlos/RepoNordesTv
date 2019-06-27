@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.NordesTv" name="[COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]" version="3.0" provider-name="luis Carlos">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NordeTv</summary>
+    <description lang="en">[COLOR yellow]l[/COLOR] Add-on [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR] esta protegido de usso da lei de direitos autorais especificamente a seção 107.[COLOR yellow]l[/COLOR]O autor é responsável pelo uso deste Add-on. [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
+[COLOR yellow]l[/COLOR] O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, [COLOR yellow]l[/COLOR]
+   
+             [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
+[COLOR yellow]l[/COLOR]- DO CINEMA PARA SUA CASA -[COLOR yellow]l[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
