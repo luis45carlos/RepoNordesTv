@@ -1,1 +1,1 @@
-V3.2 - Adicionado Area VIP e configurações.
+V3.2.1 - Adicionado Area VIP e configurações.
