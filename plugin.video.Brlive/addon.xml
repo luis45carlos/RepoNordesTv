@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.NordesTv" name="[COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]Tv[/B][/COLOR]" version="3.2.2" provider-name="luis Carlos">
+<addon id="plugin.video.Brlive" name="[COLOR white][B]Br[/B][/COLOR][COLOR red][B]Live[/B][/COLOR]" version="1.8.1" provider-name="Mattos">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -29,13 +29,12 @@
 		<datadir zip="true">https://raw.githubusercontent.com/luis45carlos/RepoNordesTv/master/ZipFiles/</datadir>
     </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">NordeTv</summary>
-    <description lang="en">[COLOR yellow]l[/COLOR] TV AO VIVO[COLOR yellow]l[/COLOR] FILMES [COLOR yellow]l[/COLOR] SERIES [COLOR yellow]l[/COLOR] WEB RADIO [COLOR yellow]l[/COLOR] NOVELAS [COLOR yellow]l[/COLOR] DESENHOS [COLOR yellow]l[/COLOR]
-[COLOR yellow]l[/COLOR] Add-on [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR] esta protegido de usso da lei de direitos autorais especificamente a secao 107.[COLOR yellow]l[/COLOR]O autor e responsavel pelo uso deste Add-on. [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
-[COLOR yellow]l[/COLOR] O autor nao e de forma alguma afiliado à Kodi, a Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos, [COLOR yellow]l[/COLOR]
-   
-             [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
-[COLOR yellow]l[/COLOR]- DO CINEMA PARA SUA CASA -[COLOR yellow]l[/COLOR]</description>
+    <summary lang="en">TV AO VIVO [COLOR yellow]l[/COLOR] IPTV [COLOR yellow]l[/COLOR]</summary>
+    <description lang="en">O autor não é responsável pelo uso deste addon. [B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR]
+	
+O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.
+
+[B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR] DO MELHOR COM IPTV PARA A SUA CASA [COLOR yellow][B]l[/COLOR][/B]</description>
     <platform>all</platform>
   </extension>
 </addon>
